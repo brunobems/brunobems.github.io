@@ -241,7 +241,8 @@
         document.write('<form>'); questoesMestre.forEach((q, i) => {
             document.write('<h3>' + (i + 1) + '. ' + q.pergunta + '</h3>');
             q.opcoes.forEach((o, j) => document.write('<label><input type=radio name=q' + i + ' value=' + j + '>' + o + '</label><br>')); document.write('<div id=e' + i + '></div><hr>');
-        }); document.write('</form><button onclick="corrigir()">Finalizar basico</button><div id=res></div>'); function corrigir() { let p = 0; questoesMestre.forEach((q, i) => { let r = document.querySelector('input[name=q' + i + ']:checked'); let e = document.getElementById('e' + i); if (r && +r.value === q.correta) { p++; e.innerHTML = '✅ ' + q.explicacao } else { e.innerHTML = '❌ ' + q.explicacao } }); document.getElementById('res').innerHTML = 'Acertos: ' + p + '/' + questoesInt.length; }
+        }); document.write('</form><button onclick="corrigir()">Finalizar basico</button><div id=res></div>'); function corrigir() { let p = 0; questoesMestre.forEach((q, i) => { let r = document.querySelector('input[name=q' + i + ']:checked'); let e = document.getElementById('e' + i); if (r && +r.value === q.correta) { p++; e.innerHTML = '✅ ' + q.explicacao } else { e.innerHTML = '❌ ' + q.explicacao } }); document.getElementById('res').innerHTML = 'Acertos: ' + p + '/' +         document.write('<form>'); questoesMestre.forEach((q, i) => {
+.length; }
     </script>
 
 
