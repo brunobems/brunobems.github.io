@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olimpíada de Literatura - Básico</title>
+</head>
+
+<body>
+    <h1>🏆 Olimpíada de Literatura - Perigoso</h1>
+    <p>Nível Médio - 20 questões</p>
+    <script>
+        const questoes = [
+          
+    {
+        pergunta: "Como o hábito de Bob de etiquetar objetos pode ser interpretado simbolicamente?",
+        opcoes: ["Necessidade de controle", "Desejo de brincar", "Medo dos outros", "Curiosidade científica"],
+        correta: 0,
+        explicacao: "As etiquetas simbolizam a tentativa de Bob de controlar e organizar o mundo ao seu redor."
+    },
+    {
+        pergunta: "O que o chapéu com a etiqueta 'PERIGO!' representa na narrativa?",
+        opcoes: ["Um objeto mágico", "O desconhecido e o preconceito", "Um brinquedo infantil", "Um símbolo de amizade"],
+        correta: 1,
+        explicacao: "O chapéu representa o medo do desconhecido e como rótulos podem criar preconceitos."
+    },
+    {
+        pergunta: "Qual é a função dos coelhos na construção da mensagem do livro?",
+        opcoes: ["Gerar caos", "Desconstruir o medo", "Reforçar o perigo", "Ensinar disciplina"],
+        correta: 1,
+        explicacao: "Os coelhos desconstruem o medo e mostram que o inesperado pode ser positivo."
+    },
+    {
+        pergunta: "De que forma o crocodilo desafia os preconceitos dos outros animais?",
+        opcoes: ["Agindo com violência", "Mostrando bondade", "Fugindo dos coelhos", "Usando etiquetas"],
+        correta: 1,
+        explicacao: "O crocodilo, apesar da aparência assustadora, mostra bondade e amizade."
+    },
+    {
+        pergunta: "Qual é a crítica social implícita na obra?",
+        opcoes: ["Contra a curiosidade", "Contra a rotulação e julgamento superficial", "Contra os animais diferentes", "Contra a amizade improvável"],
+        correta: 1,
+        explicacao: "A obra critica a tendência humana de rotular e julgar sem conhecer."
+    },
+    {
+        pergunta: "Por que o humor é essencial para transmitir a mensagem do livro?",
+        opcoes: ["Porque torna a leitura leve", "Porque ridiculariza o medo", "Porque atrai crianças", "Porque evita tensão"],
+        correta: 1,
+        explicacao: "O humor ridiculariza o medo e mostra que ele pode ser infundado."
+    },
+    {
+        pergunta: "O que Bob aprende sobre o valor das etiquetas?",
+        opcoes: ["Que são sempre corretas", "Que podem enganar", "Que são mágicas", "Que devem ser usadas sempre"],
+        correta: 1,
+        explicacao: "Bob aprende que etiquetas podem enganar e não devem definir a realidade."
+    },
+    {
+        pergunta: "Como a relação entre Bob e o crocodilo reforça a mensagem central?",
+        opcoes: ["Mostra rivalidade", "Mostra aceitação das diferenças", "Mostra medo constante", "Mostra desconfiança"],
+        correta: 1,
+        explicacao: "A amizade entre Bob e o crocodilo reforça a aceitação das diferenças."
+    },
+    {
+        pergunta: "Qual é o papel da curiosidade na narrativa?",
+        opcoes: ["Causa problemas", "Abre portas para descobertas", "Ensina disciplina", "Mostra perigo real"],
+        correta: 1,
+        explicacao: "A curiosidade de Bob abre portas para descobertas inesperadas e positivas."
+    },
+    {
+        pergunta: "Como o livro ensina a lidar com o desconhecido?",
+        opcoes: ["Com medo", "Com cautela", "Com abertura e aceitação", "Com rejeição"],
+        correta: 2,
+        explicacao: "O livro ensina que o desconhecido deve ser aceito com abertura e curiosidade."
+    },
+    {
+        pergunta: "Qual é a importância das ilustrações na obra?",
+        opcoes: ["Complementam o humor", "Reforçam o medo", "Substituem o texto", "Criam suspense"],
+        correta: 0,
+        explicacao: "As ilustrações complementam o humor e tornam a mensagem acessível às crianças."
+    },
+    {
+        pergunta: "O que a reação exagerada de Bob aos coelhos simboliza?",
+        opcoes: ["Medo irracional", "Curiosidade científica", "Amor pelos animais", "Desejo de brincar"],
+        correta: 0,
+        explicacao: "A reação exagerada simboliza o medo irracional diante do desconhecido."
+    },
+    {
+        pergunta: "Como o livro aborda o tema da diversidade?",
+        opcoes: ["Mostrando que todos são iguais", "Mostrando que diferenças não significam perigo", "Mostrando que diversidade causa caos", "Mostrando que deve ser evitada"],
+        correta: 1,
+        explicacao: "O livro mostra que diferenças não significam perigo e devem ser aceitas."
+    },
+    {
+        pergunta: "Qual é a relação entre humor e crítica social na obra?",
+        opcoes: ["Humor neutraliza a crítica", "Humor reforça a crítica", "Humor substitui a crítica", "Humor ignora a crítica"],
+        correta: 1,
+        explicacao: "O humor reforça a crítica social ao mostrar como medos podem ser ridículos."
+    },
+    {
+        pergunta: "Por que o crocodilo é um personagem essencial?",
+        opcoes: ["Porque é engraçado", "Porque representa o preconceito", "Porque causa medo real", "Porque organiza os coelhos"],
+        correta: 1,
+        explicacao: "O crocodilo é essencial porque representa o preconceito e a aceitação das diferenças."
+    },
+    {
+        pergunta: "Qual é a lição sobre amizade transmitida pelo livro?",
+        opcoes: ["Amigos devem ser iguais", "Amigos podem ser diferentes", "Amigos devem evitar riscos", "Amigos devem seguir regras"],
+        correta: 1,
+        explicacao: "O livro ensina que amigos podem ser diferentes e ainda assim se apoiar."
+    },
+    {
+        pergunta: "Como o livro pode ser usado pedagogicamente?",
+        opcoes: ["Para ensinar disciplina", "Para discutir preconceito e aceitação", "Para ensinar ciências", "Para ensinar matemática"],
+        correta: 1,
+        explicacao: "O livro pode ser usado para discutir preconceito e aceitação em sala de aula."
+    },
+    {
+        pergunta: "Qual é o impacto da surpresa dos coelhos na narrativa?",
+        opcoes: ["Cria medo real", "Desconstrói o rótulo de perigo", "Ensina disciplina", "Mostra caos sem sentido"],
+        correta: 1,
+        explicacao: "A surpresa desconstrói o rótulo de perigo e mostra que o inesperado pode ser positivo."
+    },
+    {
+        pergunta: "O que a obra sugere sobre julgamentos precipitados?",
+        opcoes: ["São necessários", "Podem ser injustos", "São sempre corretos", "Devem ser incentivados"],
+        correta: 1,
+        explicacao: "A obra sugere que julgamentos precipitados podem ser injustos e enganosos."
+    },
+    {
+        pergunta: "Qual é a mensagem filosófica mais profunda do livro?",
+        opcoes: ["O mundo deve ser rotulado", "O desconhecido é sempre perigoso", "A realidade não pode ser definida por aparências", "A amizade só existe entre iguais"],
+        correta: 2,
+        explicacao: "A mensagem filosófica é que a realidade não pode ser definida apenas pelas aparências."
+    }
+
+
+    
+
+        ];
+        document.write('<form>'); questoes.forEach((q, i) => { document.write('<h3>' + (i + 1) + '. ' + q.pergunta + '</h3>'); q.opcoes.forEach((o, j) => document.write('<label><input type=radio name=q' + i + ' value=' + j + '>' + o + '</label><br>')); document.write('<div id=e' + i + '></div><hr>'); }); document.write('</form><button onclick="corrigir()">Finalizar basico</button><div id=res></div>'); function corrigir() { let p = 0; questoes.forEach((q, i) => { let r = document.querySelector('input[name=q' + i + ']:checked'); let e = document.getElementById('e' + i); if (r && +r.value === q.correta) { p++; e.innerHTML = '✅ ' + q.explicacao } else { e.innerHTML = '❌ ' + q.explicacao } }); document.getElementById('res').innerHTML = 'Acertos: ' + p + '/' + questoes.length; }
+    </script>
+
+    
+
+
+
+</body>
+
+</html>
