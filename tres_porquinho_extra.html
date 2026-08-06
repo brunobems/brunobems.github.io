@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olimpíada de Literatura - Básico</title>
+</head>
+
+<body>
+    <h1>🏆 Olimpíada de Literatura - 3 Porcos</h1>
+    <p>Nível Médio - 20 questões</p>
+    <script>
+        const questoes = [
+    {
+        pergunta: "O que simboliza a velha porca ao deixar os filhos partirem?",
+        opcoes: ["O fim da infância", "A preguiça", "O medo", "A alegria"],
+        correta: 0,
+        explicacao: "A mãe representa o fim da infância e o início da independência dos porquinhos."
+    },
+    {
+        pergunta: "A casa de palha pode ser vista como metáfora de quê?",
+        opcoes: ["Fragilidade dos sonhos", "Força da amizade", "Alegria da infância", "Segurança eterna"],
+        correta: 0,
+        explicacao: "A casa de palha simboliza a fragilidade dos sonhos construídos sem esforço."
+    },
+    {
+        pergunta: "O que a casa de madeira revela sobre o segundo porquinho?",
+        opcoes: ["Um pouco mais de esforço", "Preguiça extrema", "Sabedoria profunda", "Alegria despreocupada"],
+        correta: 0,
+        explicacao: "A casa de madeira mostra algum esforço, mas ainda insuficiente para resistir ao perigo."
+    },
+    {
+        pergunta: "A casa de tijolos é símbolo de quê?",
+        opcoes: ["Trabalho duro e segurança", "Alegria passageira", "Medo constante", "Solidão"],
+        correta: 0,
+        explicacao: "A casa de tijolos simboliza o trabalho duro que traz segurança e estabilidade."
+    },
+    {
+        pergunta: "O lobo pode ser interpretado como metáfora de quê?",
+        opcoes: ["O perigo da vida", "A preguiça", "A amizade", "A alegria"],
+        correta: 0,
+        explicacao: "O lobo simboliza os perigos e desafios que surgem na vida."
+    },
+    {
+        pergunta: "O que os sopros do lobo representam?",
+        opcoes: ["A força da natureza", "O poder da destruição", "A fragilidade das escolhas fáceis", "A raiva dos inimigos"],
+        correta: 2,
+        explicacao: "Os sopros representam como escolhas frágeis não resistem às dificuldades."
+    },
+    {
+        pergunta: "Qual sentimento os porquinhos experimentam ao fugir para a casa de tijolos?",
+        opcoes: ["Medo", "Alívio", "Tristeza", "Indiferença"],
+        correta: 1,
+        explicacao: "Eles sentem alívio ao encontrar segurança na casa sólida do irmão."
+    },
+    {
+        pergunta: "O que a união dos porquinhos no final simboliza?",
+        opcoes: ["Força da família", "Alegria da infância", "Medo coletivo", "Solidão compartilhada"],
+        correta: 0,
+        explicacao: "A união simboliza a força da família e da cooperação diante do perigo."
+    },
+    {
+        pergunta: "O fogo aceso na chaminé pode ser visto como metáfora de quê?",
+        opcoes: ["Proteção contra o mal", "Destruição sem sentido", "Alegria da vitória", "Medo eterno"],
+        correta: 0,
+        explicacao: "O fogo simboliza a proteção contra o mal e a vitória da inteligência."
+    },
+    {
+        pergunta: "O que a fuga dos dois primeiros porquinhos ensina?",
+        opcoes: ["Que a preguiça traz consequências", "Que o lobo é invencível", "Que a amizade é perigosa", "Que casas frágeis são mágicas"],
+        correta: 0,
+        explicacao: "Ensina que a preguiça e escolhas fáceis trazem consequências dolorosas."
+    },
+    {
+        pergunta: "Qual é o tom emocional da narrativa?",
+        opcoes: ["Trágico", "Poético e leve", "Sombrio", "Indiferente"],
+        correta: 1,
+        explicacao: "Apesar do perigo, a narrativa é poética e leve, com humor e ensinamentos."
+    },
+    {
+        pergunta: "O que o terceiro porquinho representa?",
+        opcoes: ["A sabedoria", "A preguiça", "O medo", "A alegria despreocupada"],
+        correta: 0,
+        explicacao: "O terceiro porquinho representa a sabedoria e o valor do esforço."
+    },
+    {
+        pergunta: "O que a história ensina sobre escolhas?",
+        opcoes: ["Que escolhas rápidas são melhores", "Que escolhas cuidadosas trazem segurança", "Que não importa o que escolher", "Que é melhor não escolher"],
+        correta: 1,
+        explicacao: "A história ensina que escolhas cuidadosas e bem pensadas trazem segurança."
+    },
+    {
+        pergunta: "O que o lobo simboliza para as crianças que leem a história?",
+        opcoes: ["Um monstro real", "Os desafios da vida", "Um amigo secreto", "A alegria escondida"],
+        correta: 1,
+        explicacao: "Para as crianças, o lobo simboliza os desafios e medos que precisam ser enfrentados."
+    },
+    {
+        pergunta: "O que a vitória dos porquinhos sobre o lobo transmite?",
+        opcoes: ["Esperança", "Medo", "Tristeza", "Indiferença"],
+        correta: 0,
+        explicacao: "A vitória transmite esperança e confiança no valor do esforço."
+    },
+    {
+        pergunta: "Qual é a mensagem filosófica mais profunda da história?",
+        opcoes: ["O mundo é frágil", "O esforço constrói segurança", "O medo é inevitável", "A preguiça é recompensada"],
+        correta: 1,
+        explicacao: "A mensagem filosófica é que o esforço constrói segurança e estabilidade."
+    },
+    {
+        pergunta: "O que os três porquinhos juntos representam?",
+        opcoes: ["Diversidade de escolhas", "Alegria da infância", "Medo coletivo", "Solidão compartilhada"],
+        correta: 0,
+        explicacao: "Eles representam a diversidade de escolhas e suas consequências."
+    },
+    {
+        pergunta: "O que a casa de tijolos ensina sobre paciência?",
+        opcoes: ["Que paciência é inútil", "Que paciência constrói segurança", "Que paciência traz medo", "Que paciência destrói sonhos"],
+        correta: 1,
+        explicacao: "A casa de tijolos ensina que paciência e esforço constroem segurança."
+    },
+    {
+        pergunta: "O que a história mostra sobre enfrentar o medo?",
+        opcoes: ["Que é melhor fugir", "Que coragem e inteligência vencem", "Que o medo é invencível", "Que o medo deve ser ignorado"],
+        correta: 1,
+        explicacao: "A história mostra que coragem e inteligência vencem o medo."
+    },
+    {
+        pergunta: "O que o final feliz dos porquinhos transmite às crianças?",
+        opcoes: ["Tristeza", "Esperança e confiança", "Medo eterno", "Indiferença"],
+        correta: 1,
+        explicacao: "O final feliz transmite esperança e confiança no valor da união e do esforço."
+    }
+]
+;
+        document.write('<form>'); questoes.forEach((q, i) => { document.write('<h3>' + (i + 1) + '. ' + q.pergunta + '</h3>'); q.opcoes.forEach((o, j) => document.write('<label><input type=radio name=q' + i + ' value=' + j + '>' + o + '</label><br>')); document.write('<div id=e' + i + '></div><hr>'); }); document.write('</form><button onclick="corrigir()">Finalizar basico</button><div id=res></div>'); function corrigir() { let p = 0; questoes.forEach((q, i) => { let r = document.querySelector('input[name=q' + i + ']:checked'); let e = document.getElementById('e' + i); if (r && +r.value === q.correta) { p++; e.innerHTML = '✅ ' + q.explicacao } else { e.innerHTML = '❌ ' + q.explicacao } }); document.getElementById('res').innerHTML = 'Acertos: ' + p + '/' + questoes.length; }
+    </script>
+
+    
+
+
+
+</body>
+
+</html>
