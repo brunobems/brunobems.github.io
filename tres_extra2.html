@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olimpíada de Literatura - Básico</title>
+</head>
+
+<body>
+    <h1>🏆 Olimpíada de Literatura - 3 Porcos</h1>
+    <p>Nível Médio - 20 questões</p>
+    <script>
+        const questoes = [
+    {
+        pergunta: "Quem era a mãe dos três porquinhos?",
+        opcoes: ["Uma vaca", "Uma porca", "Uma cabra", "Uma galinha"],
+        correta: 1,
+        explicacao: "A história começa contando que uma velha porca tinha três porquinhos."
+    },
+    {
+        pergunta: "Por que os três porquinhos saíram de casa?",
+        opcoes: ["Para brincar", "Para construir suas próprias casas", "Para caçar", "Para visitar amigos"],
+        correta: 1,
+        explicacao: "Eles saíram para construir suas próprias casas e viver de forma independente."
+    },
+    {
+        pergunta: "Com que material o primeiro porquinho construiu sua casa?",
+        opcoes: ["Madeira", "Palha", "Tijolos", "Pedras"],
+        correta: 1,
+        explicacao: "O primeiro porquinho construiu sua casa de palha."
+    },
+    {
+        pergunta: "Com que material o segundo porquinho construiu sua casa?",
+        opcoes: ["Madeira", "Palha", "Tijolos", "Pedras"],
+        correta: 0,
+        explicacao: "O segundo porquinho construiu sua casa de madeira."
+    },
+    {
+        pergunta: "Com que material o terceiro porquinho construiu sua casa?",
+        opcoes: ["Madeira", "Palha", "Tijolos", "Pedras"],
+        correta: 2,
+        explicacao: "O terceiro porquinho construiu sua casa de tijolos."
+    },
+    {
+        pergunta: "Quem era o grande inimigo dos porquinhos?",
+        opcoes: ["Um urso", "Um lobo", "Um tigre", "Um leão"],
+        correta: 1,
+        explicacao: "O inimigo era o lobo, que queria devorar os porquinhos."
+    },
+    {
+        pergunta: "O que o lobo fazia para destruir as casas?",
+        opcoes: ["Batendo com pedras", "Soprando forte", "Queimando", "Escavando"],
+        correta: 1,
+        explicacao: "O lobo soprava forte para derrubar as casas."
+    },
+    {
+        pergunta: "Qual casa resistiu ao ataque do lobo?",
+        opcoes: ["A de palha", "A de madeira", "A de tijolos", "Nenhuma"],
+        correta: 2,
+        explicacao: "A casa de tijolos resistiu ao ataque do lobo."
+    },
+    {
+        pergunta: "O que aconteceu com o porquinho da casa de palha?",
+        opcoes: ["Foi devorado pelo lobo", "Fugiu para a casa de madeira", "Fugiu para a casa de tijolos", "Construiu outra casa"],
+        correta: 2,
+        explicacao: "Ele fugiu para a casa de tijolos do irmão."
+    },
+    {
+        pergunta: "O que aconteceu com o porquinho da casa de madeira?",
+        opcoes: ["Foi devorado pelo lobo", "Fugiu para a casa de tijolos", "Construiu outra casa", "Se escondeu na floresta"],
+        correta: 1,
+        explicacao: "Ele também fugiu para a casa de tijolos do irmão."
+    },
+    {
+        pergunta: "Qual é a principal lição da história?",
+        opcoes: ["A preguiça compensa", "O trabalho duro traz segurança", "É melhor fugir sempre", "A amizade é perigosa"],
+        correta: 1,
+        explicacao: "A lição é que o trabalho duro e cuidadoso traz segurança e recompensa."
+    },
+    {
+        pergunta: "O que o lobo representa na história?",
+        opcoes: ["O perigo", "A preguiça", "A amizade", "A alegria"],
+        correta: 0,
+        explicacao: "O lobo representa o perigo e os desafios da vida."
+    },
+    {
+        pergunta: "Qual porquinho foi mais sábio?",
+        opcoes: ["O primeiro", "O segundo", "O terceiro", "Todos igualmente"],
+        correta: 2,
+        explicacao: "O terceiro porquinho foi o mais sábio ao construir sua casa de tijolos."
+    },
+    {
+        pergunta: "Por que a casa de tijolos não caiu?",
+        opcoes: ["Era mágica", "Foi bem construída", "O lobo desistiu", "Era escondida"],
+        correta: 1,
+        explicacao: "A casa de tijolos não caiu porque foi bem construída e resistente."
+    },
+    {
+        pergunta: "O que os dois primeiros porquinhos aprenderam com o terceiro?",
+        opcoes: ["Que o lobo era fraco", "Que o trabalho duro vale a pena", "Que deviam fugir sempre", "Que casas mágicas existem"],
+        correta: 1,
+        explicacao: "Eles aprenderam que o trabalho duro e cuidadoso vale a pena."
+    },
+    {
+        pergunta: "Como o lobo tentou enganar os porquinhos?",
+        opcoes: ["Com presentes", "Com promessas", "Com truques para atraí-los para fora", "Com música"],
+        correta: 2,
+        explicacao: "O lobo tentou enganar os porquinhos com truques para atraí-los para fora da casa."
+    },
+    {
+        pergunta: "O que aconteceu com o lobo no final da história?",
+        opcoes: ["Ele fugiu", "Ele caiu na chaminé", "Ele devorou os porquinhos", "Ele destruiu a casa"],
+        correta: 1,
+        explicacao: "No final, o lobo caiu na chaminé da casa de tijolos."
+    },
+    {
+        pergunta: "O que os porquinhos fizeram quando o lobo caiu na chaminé?",
+        opcoes: ["Fugiram", "Acenderam o fogo", "Abriram a porta", "Deram comida"],
+        correta: 1,
+        explicacao: "Eles acenderam o fogo e o lobo caiu dentro da panela."
+    },
+    {
+        pergunta: "Qual é o tom da narrativa?",
+        opcoes: ["Trágico", "Humorístico", "Sério", "Poético"],
+        correta: 1,
+        explicacao: "Apesar do perigo, a narrativa tem um tom humorístico e leve."
+    },
+    {
+        pergunta: "O que a história ensina sobre escolhas?",
+        opcoes: ["Que escolhas rápidas são melhores", "Que escolhas cuidadosas trazem segurança", "Que não importa o que escolher", "Que é melhor não escolher"],
+        correta: 1,
+        explicacao: "A história ensina que escolhas cuidadosas e bem pensadas trazem segurança."
+    }
+]
+
+;
+        document.write('<form>'); questoes.forEach((q, i) => { document.write('<h3>' + (i + 1) + '. ' + q.pergunta + '</h3>'); q.opcoes.forEach((o, j) => document.write('<label><input type=radio name=q' + i + ' value=' + j + '>' + o + '</label><br>')); document.write('<div id=e' + i + '></div><hr>'); }); document.write('</form><button onclick="corrigir()">Finalizar basico</button><div id=res></div>'); function corrigir() { let p = 0; questoes.forEach((q, i) => { let r = document.querySelector('input[name=q' + i + ']:checked'); let e = document.getElementById('e' + i); if (r && +r.value === q.correta) { p++; e.innerHTML = '✅ ' + q.explicacao } else { e.innerHTML = '❌ ' + q.explicacao } }); document.getElementById('res').innerHTML = 'Acertos: ' + p + '/' + questoes.length; }
+    </script>
+
+    
+
+
+
+</body>
+
+</html>
